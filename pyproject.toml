@@ -1,7 +1,7 @@
 [project]
 name = "bilocal-distillation"
 version = "0.1.0"
-description = "Add your description here"
+description = "Code for 'Constant Overhead Entanglement Distillation via Scrambling' paper"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -11,4 +11,6 @@ dependencies = [
     "scipy>=1.15.3",
     "seaborn>=0.13.2",
     "tqdm>=4.67.1",
+    "scienceplots>=2.1.0",
+    "multiprocess>=0.70.0",
 ]
